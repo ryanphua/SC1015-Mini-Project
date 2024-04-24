@@ -15,6 +15,8 @@ The brief walkthrough of our project is:
 8. **One-Hot Encoded Data (Random Forest Classifier)**
 9. **Conclusion**
 
+## Brief Context:
+Diabetes is a chronic disease in which blood sugar levels are above normal. Over time, if uncontrolled, the high levels of blood sugar can damage nerves and blood vessels, leading to serious health complications such as heart disease, stroke, blindness and amputations. There are two main typess of diabetes. While Type 1 usually occurs due to genetic disposition, Type 2 diabetes, is often caused by lifestyle habits, such as an excessive consumption of processed sugar. 
 
 ## Problem Definition:
 - Are we able to predict if someone has diabetes based on their health indicators and lifestyle factors?
@@ -27,7 +29,16 @@ The brief walkthrough of our project is:
 - Random Forest Classifier (RF)
 
 ## Conclusion:
+- most significant numeric data: BMI
+- most significant binary data: HighBP
+- most significant one-hot encoded data: GenHlth
+- the three factors are closely related, in that habits that cause HighBP and high BMI often lead to poor GenHlth
+- suggestion: cultivating habits for a healthy lifestyle, hence improving GenHlth leads to lower risk of diabetes
 
+## Individual Contribution:
+- Tan Yichen: Binary data analysis
+- Wong Kwan Kit: Numeric data analysis
+- Ryan Phua Rui En: One-hot encoded data analysis
 
 ## References:
 - https://www.ibm.com/topics/random-forest#:~:text=Random%20forest%20is%20a%20commonly,both%20classification%20and%20regression%20problems
