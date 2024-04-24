@@ -13,3 +13,5 @@ The scale and effects of diabetes are devastating. There is a need for us to do 
 ## Content
 
 Our data analysis aims to extract potential higher risk factors that can be present in a person's lifestyle habits, in hopes that people will be able to identify and improve factors that can increase the risk of diabetes. We will be further cleaning the data and scoping into the few factors that are more significant in predicting diabetes risk, before further categorising them into numerical, binary and one-hot encoded data to carry out our analysis.
+
+After inspecting the three datasets available to us in the Kaggle link, we decided to make use of the Diabetes Binary dataset with a 50/50 split between respondents having and not having diabetes instead of the other two datasets. This was due to the other two datasets having highly skewed data, where the number of respondents who did not have diabetes was almost 7 times more than those who had diabetes, which would lead to larger inaccuracy when analysis the diabetes risk factors.
